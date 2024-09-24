@@ -1,0 +1,61 @@
+body{
+height: 95vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background:linear-gradient( to right,#8967B3,#624E88);
+font-family: sans-serif;
+}
+
+.register{
+    background-color: #cb80ab;
+    width: 100%;
+    max-width: 400px;
+    padding:20px;
+
+}
+.FullName{
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border:1px solid #624E88;
+}
+.email{
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border:1px solid #624E88;
+}
+.password{
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border:1px solid #624E88;
+}
+.confirmpassword{
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #624E88;
+}
+.MobileNumber{
+    width: 80%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #624E88;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #624E88;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #8967B3;
+}
+.login-link{
+    text-align: center;
+    margin-top: 15px;
+}
